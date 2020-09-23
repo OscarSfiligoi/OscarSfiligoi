@@ -9,9 +9,18 @@ void dimension() {
 
 	if ((h <= 55) && (l <= 35) && (p <= 25)) { printf("VALIDE"); }
 	else { printf("NON VALIDE"); }
+}
 
+void restart(){
+	int r=1;
+	while(r==1){
+		printf("\n Voulez vous recommencer ? Si oui rentrez 1 sinon 0 : ");
+		scanf_s("%d", &r);
+		if (r == 1) { dimension(); }
+	}
 }
 
 int main(){
 	dimension();
+	restart();
 }

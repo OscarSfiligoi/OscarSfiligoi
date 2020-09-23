@@ -1,5 +1,0 @@
-﻿  Exo3.c
-C:\Users\Sfiligoi\source\repos\TP2\TP2\Exo3.c(6,8): warning C4013: 'printf' non défini(e) ; extern retournant int pris par défaut
-C:\Users\Sfiligoi\source\repos\TP2\TP2\Exo3.c(7,9): warning C4013: 'scanf_s' non défini(e) ; extern retournant int pris par défaut
-Exo3.obj : error LNK2005: _main déjà défini(e) dans boucle.obj
-C:\Users\Sfiligoi\source\repos\TP2\Debug\TP2.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés
